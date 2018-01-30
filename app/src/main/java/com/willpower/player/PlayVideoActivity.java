@@ -28,14 +28,18 @@ public class PlayVideoActivity extends AppCompatActivity {
     TextView urlView;
 
     /**
-     *
      * @param context
      * @param url -- 视频的Url，path
      */
     public static void start(Context context, String url) {
-        start(context, url,url);
+        start(context, url, "");
     }
 
+    /**
+     * @param context
+     * @param url--       视频的Url，path
+     * @param title--视频标题
+     */
     public static void start(Context context, String url,String title) {
         Intent intent = new Intent(context, PlayVideoActivity.class);
         intent.putExtra(EXTRA_VIDEO_URL, url);

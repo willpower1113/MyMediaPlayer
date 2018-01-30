@@ -24,13 +24,9 @@ import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
-import android.view.animation.ScaleAnimation;
 import android.widget.FrameLayout;
-import android.widget.TextView;
 
 import com.willpower.player.R;
-import com.willpower.player.base.MediaPlayerUtils;
-import com.willpower.touch.image.AppRoundImageButton;
 
 /**
  * 播放暂停
